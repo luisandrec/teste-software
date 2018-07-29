@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suíte-Tests buscaAjax da LancamentoService">
+    <test name="10 lançamentos">
+        <groups>
+            <run>
+                <include name="lancamento10"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="br.ucdb.pos.engenhariasoftware.testesoftware.service.LancamentoServiceTest"></class>
+        </classes>
+    </test>
+    <test name="9 lançamentos">
+        <groups>
+            <run>
+                <include name="lancamento9"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="br.ucdb.pos.engenhariasoftware.testesoftware.service.LancamentoServiceTest"></class>
+        </classes>
+    </test>
+    <test name="3 lançamentos">
+        <groups>
+            <run>
+                <include name="lancamento3"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="br.ucdb.pos.engenhariasoftware.testesoftware.service.LancamentoServiceTest"></class>
+        </classes>
+    </test>
+    <test name="1 lançamentos">
+        <groups>
+            <run>
+                <include name="lancamento1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="br.ucdb.pos.engenhariasoftware.testesoftware.service.LancamentoServiceTest"></class>
+        </classes>
+    </test>
+    <test name="0 lançamentso">
+        <groups>
+            <run>
+                <include name="lancamento0"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="br.ucdb.pos.engenhariasoftware.testesoftware.service.LancamentoServiceTest"></class>
+        </classes>
+    </test>
+</suite>
